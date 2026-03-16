@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-slate-950 text-slate-50 antialiased;
+}
+
+.glass-panel {
+  @apply bg-white/5 border border-white/10 backdrop-blur-xl rounded-2xl;
+}
+
+.section-container {
+  @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.section-title {
+  @apply text-3xl sm:text-4xl font-semibold tracking-tight;
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-500 via-accent-400 to-fuchsia-400;
+}
+
+.pill {
+  @apply inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-medium bg-white/5 border border-white/10;
+}
+
+.glow-border {
+  position: relative;
+}
+
+.glow-border::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    rgba(56, 189, 248, 0.4),
+    rgba(129, 140, 248, 0.4),
+    rgba(236, 72, 153, 0.4),
+    rgba(56, 189, 248, 0.4)
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  filter: blur(6px);
+  z-index: -1;
+}
+
+.glow-border:hover::before {
+  opacity: 1;
+}
+
+.bg-grid-slate-800 {
+  background-image: linear-gradient(to right, rgba(15, 23, 42, 0.9) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(15, 23, 42, 0.9) 1px, transparent 1px);
+  background-size: 36px 36px;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
