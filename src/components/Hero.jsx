@@ -108,7 +108,7 @@ export default function Hero() {
               <div className="grid grid-cols-2 gap-3 text-xs w-full">
                 <div className="glass-panel border-white/5 px-3 py-2.5 text-left">
                   <p className="text-[11px] uppercase tracking-[0.18em] text-slate-400">Focus</p>
-                  <p className="mt-1 text-slate-100">ML · CV · NLP · Full‑stack</p>
+                  <p className="mt-1 text-slate-100">ML · Problem Solving · AI · Full‑stack</p>
                 </div>
                 <div className="glass-panel border-white/5 px-3 py-2.5 text-left">
                   <p className="text-[11px] uppercase tracking-[0.18em] text-slate-400">Stack</p>
