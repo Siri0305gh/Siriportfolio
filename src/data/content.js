@@ -9,8 +9,8 @@ export const hero = {
 
 export const about = {
   bio: [
-    'I am a B.Tech student in Artificial Intelligence and Data Science at B.V. Raju Institute of Technology with hands‑on experience in machine learning, computer vision, and full‑stack development.',
-    'I enjoy designing and building intelligent, real‑time systems — especially projects that combine deep learning, data engineering, and modern web technologies.'
+    'Artificial Intelligence and Data Science undergraduate with hands-on experience in software development, machine learning, and computer vision. Skilled in building real-time AI applications using Python, Java, TensorFlow, and OpenCV.',
+    'Passionate about solving real-world problems through technology and continuously enhancing my skills in AI, full-stack development, and data structures & algorithms. Currently seeking opportunities to contribute, learn, and grow as a Software Developer or AI Engineer.'
   ],
   education: [
     {
@@ -167,7 +167,7 @@ export const codingProfiles = [
 
 export const socialLinks = {
   email: 'sirinandyala2005@gmail.com',
-  linkedin: 'https://www.linkedin.com/in/siri-nandyala-6033b4293/',
+  linkedin: 'https://www.linkedin.com/in/siri-nandyala-2403b5293/',
   github: 'https://github.com/Siri0305gh',
   twitter: '',
   instagram: ''

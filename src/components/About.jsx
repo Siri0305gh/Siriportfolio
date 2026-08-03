@@ -38,7 +38,7 @@ export default function About() {
             <div className="glass-panel px-4 py-3 flex items-center justify-between border-white/5">
               <span className="text-slate-400">Interests</span>
               <span className="font-medium text-slate-100">
-                ML · NLP · Computer Vision · Real‑time Apps
+                Software Development · ML · AI · Full-Stack Development · Problem Solving
               </span>
             </div>
           </div>

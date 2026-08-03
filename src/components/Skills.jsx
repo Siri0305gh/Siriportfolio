@@ -37,8 +37,7 @@ export default function Skills() {
         <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-2 mb-8">
           <h2 className="section-title">The stack I work with.</h2>
           <p className="text-xs sm:text-sm text-slate-400 max-w-md">
-            A blend of **ML**, **data tooling**, and **modern web tech** — from Python and computer vision to React and
-            Node powered APIs.
+      
           </p>
         </div>
 
